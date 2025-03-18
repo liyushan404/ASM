@@ -1,0 +1,28 @@
+name: ASM_4090
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.2.1  # 可改2.3或2.5，看稳定版本
+  - pytorch-cuda=12.1
+  - torchvision
+  - torchaudio
+  - numpy>=1.23
+  - scipy>=1.9
+  - scikit-learn>=1.1
+  - pandas>=1.4
+  - matplotlib>=3.5
+  - seaborn>=0.12
+  - jupyterlab
+  - ipykernel
+  - pyqt
+  - numba
+  - statsmodels
+  - pip
+  - pip:
+      - gpustat
+      - nvidia-ml-py
+      - tensorboardx
+      - ray
